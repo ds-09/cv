@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>CV Generator</title>
+</head>
+<body>
+    
+    <h1>Welcome to CV Generator!</h1>
+    <div id="maindiv">
+        <div id="LHS">
+            <form action="" method="get">
+                <fieldset><legend>BASIC INFO:</legend>
+                <label>Name: </label><input type="text" name="name"/><br><br>
+                <label for="gender" id="1"> Gender</label><input type="radio"
+                name="gender" id="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender" id="gender">Other<br><br>
+                DOB: <input type="date" name="dob"><br><br>
+                Upload photo: <input type="file" name="pic"><br></fieldset><br><br>
+                <fieldset><legend>
+                CONTACT DETAILS:</legend> <br>
+                Phone no:   <input type="tel" name="phoneno"/> <br><br>
+                Address:<br><textarea rows="3" cols="40" name="address"></textarea><br><br>
+                E-mail ID: <input type="email" name="mailid"/> <br> <br>
+                LinkedIn: <input type="url" name="linkedin"><br>
+                </fieldset><br><br>
+
+                <fieldset><legend>
+                EDUCATION:</legend><br>
+                School name:  <input type="text" name="sname"/>
+                Percentage: <input type="text" name="perc"/><br><br>
+                College name: <input type="text" name="cname"/>
+                Percentage: <input type="text" name="perc"/>
+                </fieldset><br><br>
+                <fieldset>
+                <legend>EXPERIENCES:</legend><br>
+                <textarea name="exp" id="exp" cols="50" rows="6"></textarea>
+                </fieldset><br>
+                <button type="submit" name="submit" id="sub">SUBMIT</button>
+            </form>
+        </div>
+        <div id="RHS">
+        </div>
+    </div>
+</body>
+</html>
